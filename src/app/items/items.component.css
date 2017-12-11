@@ -7,15 +7,6 @@
   margin-bottom: 5px;
 }
 
-.sidebar {
-  float: left;
-  width: 15px;
-  height: 295px;
-  background-color: rgb(230, 225, 96);
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-}
-
 .itemImage {
   width: 280px;
   float: left;
