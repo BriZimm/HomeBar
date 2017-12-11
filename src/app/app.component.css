@@ -1,0 +1,128 @@
+.headerContainer {
+  height:378px;
+  margin-bottom: 10px;
+  margin-top:-10px;
+}
+
+.headerImage {
+  width: 378px;
+  float: left;
+  height: 378px;
+  margin-top: 5px;
+  margin-right: 20px;
+  margin-left: 40px;
+}
+
+.headerImage img {
+  height:378px;
+  width:378px;
+  max-height:378px;
+  max-width:378px;
+}
+
+.headerRight {
+  text-align: center;
+  width: 550px;
+  float: left;
+  height: 378px;
+  margin-top: 2px;
+}
+
+.headerText {
+  font-family: "Dancing Script", serif;
+  font-size: 120px;
+  margin-top:30px;
+  color: rgb(248, 240, 129);
+}
+
+/*
+ Corner Ribbons!!!
+*/
+.corner-ribbon{
+  width: 400px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+}
+
+/* Custom styles */
+
+.corner-ribbon.sticky{
+  position: fixed;
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 85px;
+  left: -85px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 75px;
+  right:  -85px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-left{
+  top: auto;
+  bottom: 85px;
+  left: -85px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.corner-ribbon.bottom-right{
+  top: auto;
+  right: -85px;
+  bottom: 85px;
+  left: auto;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+/* Colors */
+
+.corner-ribbon.white{background: #f0f0f0; color: #555;}
+.corner-ribbon.black{background: #333;}
+.corner-ribbon.grey{background: #999;}
+.corner-ribbon.blue{background: #39d;}
+.corner-ribbon.green{background: #2c7;}
+.corner-ribbon.turquoise{background: #1b9;}
+.corner-ribbon.purple{background: #95b;}
+.corner-ribbon.red{background: #e43;}
+.corner-ribbon.orange{background: #e82;}
+.corner-ribbon.yellow{background: #ec0;}
+.corner-ribbon.usa{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, rgb(57, 14, 231)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, rgb(57, 14, 231)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, rgb(57, 14, 231)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, rgb(57, 14, 231)); /* Standard syntax */
+}
+.corner-ribbon.xmas{
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(red, rgb(64, 169, 32)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(red, rgb(64, 169, 32)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(red, rgb(64, 169, 32)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(red, rgb(64, 169, 32)); /* Standard syntax */
+}
+
+.text {
+  font-family: "Dancing Script", serif;
+  text-decoration-style: bold;
+  font-size: 40px;
+}

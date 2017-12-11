@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: linear-gradient(rgba(29, 28, 28, 0.5), rgba(78, 76, 76, 0.5)), url('./assets/images/website-background.jpg');
+  background-color: #070000;
+  font-family: "Abril FatFace", serif;
+  color: yellow;
+ }
